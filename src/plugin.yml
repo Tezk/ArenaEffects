@@ -1,0 +1,26 @@
+name: ArenaEffects
+main: me.tezk.arenaeffects.ArenaEffects
+author: Tezk
+version: 1.0
+api-version: 1.14
+commands:
+  setarena:
+    description: Set arena location and radius
+  seteffect:
+    description: Set arena effect to item
+  arenaeffects:
+    description: ArenaEffects core command
+    aliases: [ae, arena]
+  playeffect:
+    description: Play effect on arena using command
+permissions:
+  arenaeffects.seteffectcommand:
+    description: Grants permission for /seteffect <effect> command
+  arenaeffects.setarenacommand:
+    description: Grants permission to set arena using /setarena <size>
+  arenaeffects.sign.activation:
+    description: Grants permission to execute arena effect activation signs
+  arenaeffects.playeffectcommand:
+    description: Grants permission to use the /playeffect <effect> command
+  arenaeffects.reloadcommand:
+    description: Grants permission to reload config using /arenaeffects reload

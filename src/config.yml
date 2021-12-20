@@ -1,0 +1,49 @@
+data:
+  arena-location:
+    world:
+    x:
+    y:
+    z:
+    radius:
+item-effects:
+  lightning:
+    title: '&f&lLightning'
+    lore:
+      - 'The Wand of Zeus'
+    enchantment: true
+  skeletons:
+    title: '&7&lS&f&lk&7&le&f&ll&7&le&f&lt&7&lo&f&ln&7&ls'
+    lore:
+      - 'Do ya hear that?'
+    enchantment: true
+  water:
+    title: '&9&lWater'
+    lore:
+      - 'Fill them up'
+    enchantment: true
+  party:
+    title: '&d&lParty'
+    lore:
+      - 'What party effects did you want to give em?'
+    enchantment: true
+  random-inv:
+    title: '&e&lI&6&ln&e&lv&6&le&e&ln&6&lt&e&lo&6&lr&e&ly &6&lJ&e&lu&6&lm&e&lb&6&ll&e&le'
+    lore:
+      - 'What can we mess with?'
+    enchantment: true
+  lava:
+    title: '&4&lLava'
+    lore:
+        - 'The ground gets hot real quick'
+    enchantment: true
+effect-config:
+  party:
+    # use effects from https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+    effects:
+      - 'JUMP'
+      - 'POISON'
+      - 'SLOW'
+signs:
+  activation-text: "[Arena]"
+  activation-text-line: 1
+  arena-effect-line: 3
